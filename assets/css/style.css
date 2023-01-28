@@ -47,6 +47,7 @@ h6 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
+  
 }
 
 .back-to-top i {
@@ -78,15 +79,16 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #351269;
   overflow-y: auto;
 }
 
 #header .profile img {
-  margin: 15px auto;
+  margin: 40px auto;
   display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
+  width: 160px;
+  border: 4px solid #2c2f3f;
+  
 }
 
 #header .profile h1 {
@@ -128,6 +130,7 @@ h6 {
 
 #main {
   margin-left: 300px;
+  
 }
 
 @media (max-width: 1199px) {
@@ -146,6 +149,7 @@ h6 {
 /* Desktop Navigation */
 .nav-menu {
   padding: 30px 0 0 0;
+  
 }
 
 .nav-menu * {
@@ -157,6 +161,7 @@ h6 {
 .nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
+  
 }
 
 .nav-menu a,
@@ -168,6 +173,7 @@ h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  
 }
 
 .nav-menu a i,
@@ -175,6 +181,7 @@ h6 {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
+  
 }
 
 .nav-menu a:hover,
@@ -183,6 +190,7 @@ h6 {
 .nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
+  
 }
 
 .nav-menu a:hover i,
@@ -212,6 +220,7 @@ h6 {
   line-height: 0;
   border-radius: 50px;
   cursor: pointer;
+  
 }
 
 .mobile-nav-active {
@@ -228,7 +237,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../videos/IMG_0754_2.MOV") center top;
+  background: url("../img/hero-bg.jpg") center top;
   background-size: cover;
 }
 
@@ -1081,7 +1090,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #351269;
 }
 
 #footer .copyright {
