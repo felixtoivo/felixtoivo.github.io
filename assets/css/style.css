@@ -254,8 +254,8 @@ h6 {
 
 #hero .hero-container {
   position: relative;
-  margin-right: 350px;
-  margin-top: 190px;
+  margin-right: 0;
+  margin-top: 80px;
   z-index: 2;
   min-width: 300px;
 }
@@ -1091,7 +1091,7 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 230px;
+  width: 230git px;
   z-index: 9999;
   background: #f2e1d300;
 }
