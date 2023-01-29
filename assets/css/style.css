@@ -271,7 +271,7 @@ h6 {
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1091,7 +1091,7 @@ section {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 230git px;
+  width: 230px;
   z-index: 9999;
   background: #f2e1d300;
 }
