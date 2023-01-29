@@ -831,7 +831,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /**
 	   * @property {number} backDelay time before backspacing in milliseconds
 	   */
-	  backDelay: 5000,
+	  backDelay: 700,
 	
 	  /**
 	   * @property {boolean} fadeOut Fade out instead of backspace
