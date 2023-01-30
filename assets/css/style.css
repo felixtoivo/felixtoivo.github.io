@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #e0e0e0;
+  background: #e0e0e0cf;
   overflow-y: auto;
 }
 
@@ -235,9 +235,10 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: cover;
   height: 100vh;
-  background: url("../videos/IMG_0754_4.mp4") center top;
+  margin-left: 250px;
+  background: url("../img/K1040045.jpg") center top;
   background-size: cover;
 }
 
@@ -253,11 +254,12 @@ h6 {
 }
 
 #hero .hero-container {
-  position: relative;
-  margin-right: 0;
-  margin-top: 80px;
+
+  
   z-index: 2;
   min-width: 300px;
+  align-items: center;
+  vertical-align: center;
 }
 
 #hero h1 {
@@ -270,15 +272,15 @@ h6 {
 
 #hero p {
   color: #fff;
-  margin-bottom: 50px;
-  font-size: 18px;
+  margin-bottom: 70px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
   color: #fff;
-  padding-bottom: 4px;
-  letter-spacing: 2px;
+  padding-bottom: 10px;
+  letter-spacing: 3px;
   /*border-bottom: 3px solid #dd5e14;*/
 }
 
