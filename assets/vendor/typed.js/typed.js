@@ -811,7 +811,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  /**
 	   * @property {number} startDelay time before typing starts in milliseconds
 	   */
-	  startDelay: 4000,
+	  startDelay: 0,
 	
 	  /**
 	   * @property {number} backSpeed backspacing speed in milliseconds
